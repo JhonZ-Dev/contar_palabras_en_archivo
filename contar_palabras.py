@@ -11,4 +11,7 @@ def contar_palabras_en_archivo(archivo):
         contenido = file.read()
         palabras = re.findall(r'\w+', contenido)
         for palabra in palabras:
+            """
+            Convertir la palabra a minúsculas para evitar distinción entre mayúsculas y minúsculas
+            """
 
