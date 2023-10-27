@@ -16,4 +16,5 @@ def contar_palabras_en_archivo(archivo):
             """
             palabra = palabra.lower()
             contador_palabras[palabra] += 1
+    return contador_palabras
 
