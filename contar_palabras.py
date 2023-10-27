@@ -18,3 +18,7 @@ def contar_palabras_en_archivo(archivo):
             contador_palabras[palabra] += 1
     return contador_palabras
 
+# Ejemplo de uso:
+archivo = "texto.txt"
+resultado = contar_palabras_en_archivo(archivo)
+
