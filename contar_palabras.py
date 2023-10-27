@@ -21,4 +21,6 @@ def contar_palabras_en_archivo(archivo):
 # Ejemplo de uso:
 archivo = "texto.txt"
 resultado = contar_palabras_en_archivo(archivo)
+for palabra, conteo in resultado.items():
+    print(f'{palabra}: {conteo}')
 
