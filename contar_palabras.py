@@ -14,4 +14,6 @@ def contar_palabras_en_archivo(archivo):
             """
             Convertir la palabra a minúsculas para evitar distinción entre mayúsculas y minúsculas
             """
+            palabra = palabra.lower()
+            contador_palabras[palabra] += 1
 
