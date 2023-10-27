@@ -7,3 +7,6 @@ def contar_palabras_en_archivo(archivo):
     
     
     contador_palabras = defaultdict(int)
+    with open(archivo, 'r') as file:
+        contenido = file.read()
+        palabras = re.findall(r'\w+', contenido)
